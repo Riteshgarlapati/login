@@ -4,17 +4,18 @@ import Image from "next/image";
 
 const LoginPage= () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900">
-      <div className="h-max my-0 mt-24 md:mt-16 mb-24 md:mb-12">
+    <div className="min-h-screen flex flex-col gap-4 items-center justify-center bg-gray-900">
+      <div className="h-max my-0 mt-24 md:mt-14 mb-21 md:mb-12">
           <Image
-            width={1000}
-            height={400}
+            width={750}
+            height={300}
             src="/images/HFest23_LogoCrop.png"
             alt="Logo"
             className=""
           />
         </div>
       <div className="border-yellow-500 border bg-none p-8 rounded shadow-md w-96">
+        <h1 className="text-2xl text-bblue-200 text-center mb-4 text-xl font-bold justify-center">Login</h1>
         <h2 className="text-2xl text-gray-200 text-center mb-4 text-sm justify-center">The credentials are shared in discord</h2>
         <form>
           <div className="mb-4">
